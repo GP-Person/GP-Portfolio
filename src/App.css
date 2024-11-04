@@ -27,9 +27,8 @@
   transition: color 0.3s;
 }
 
-#root li:hover {
-  text-decoration: underline;
-  color: var(--accent-color);
+p {
+text-align: left;
 }
 
 a {

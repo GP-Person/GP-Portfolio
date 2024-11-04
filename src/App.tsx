@@ -29,7 +29,7 @@ function App() {
 
       {/* Footer */}
       <footer style={footerStyle}>
-        <p>(719) 480-3206 | <a href="mailto:garrettapearson@gmail.com" style={{ color: '#FF9900', textDecoration: 'none' }}>garrettapearson@gmail.com</a></p>
+        <div> <a href="https://www.linkedin.com/in/garrett-pearson-909854225/">LinkedIn</a> | (719) 480-3206 | <a href="mailto:garrettapearson@gmail.com" style={{ color: '#FF9900', textDecoration: 'none' }}>garrettapearson@gmail.com</a></div>
       </footer>
     </div>
   );
