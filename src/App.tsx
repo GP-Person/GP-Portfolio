@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import NavTabs from '../components/NavTabs';
 import { Route, Routes } from 'react-router-dom';
-import Logo from './assets/logo.png';
+import Logo from './assets/logo.jpg';
 
 function App() {
   return (
