@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+//import React from 'react';
 import AboutMe from './pages/AboutMe';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
@@ -35,7 +35,7 @@ function App() {
   );
 }
 
-// Inline styling for the footer (you can move this to App.css if you prefer)
+// Inline styling for the footer
 const footerStyle = {
   textAlign: 'center',
   padding: '1rem',

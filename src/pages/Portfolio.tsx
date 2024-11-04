@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import weatherImage from '../assets/weather.png';
 import mapsImage from '../assets/maps.png';
 import vehiclesImage from '../assets/vehicles.png';
