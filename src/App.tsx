@@ -7,13 +7,13 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import NavTabs from '../components/NavTabs';
 import { Route, Routes } from 'react-router-dom';
-import Logo from './assets/logo.jpg'; 
+import Logo from './assets/logo.png';
 
 function App() {
   return (
     <div>
       <header style={headerStyle}>
-        <img src={Logo} alt="Logo" style={logoStyle} /> 
+        <img src={Logo} alt="Logo" style={logoStyle} /> {/* Updated logo style */}
         <h1>Garrett Pearson</h1>
         {/* NavTabs handles navigation */}
         <NavTabs />
@@ -55,12 +55,12 @@ const footerStyle = {
   marginTop: '2rem',
 };
 
-const logoStyle = {
+const logoStyle: React.CSSProperties = {
   height: '60px',
-  width: '60px', 
-  borderRadius: '50%', 
+  width: '60px',
+  borderRadius: '50%',
   marginBottom: '0.5rem',
-  objectFit: 'cover', 
+  objectFit: 'cover' as 'cover', 
 };
 
 const linkStyle = {
