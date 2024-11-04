@@ -37,7 +37,6 @@ function App() {
 
 // Inline styling for the footer
 const footerStyle = {
-  textAlign: 'center',
   padding: '1rem',
   backgroundColor: '#333',
   color: '#FFF',
